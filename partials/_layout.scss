@@ -22,7 +22,7 @@ ul {
 
 
 header {
-    height: 90vh;
+    height: 85vh;
     min-height: 500px;
 }
 
@@ -40,22 +40,29 @@ header nav ul {
     margin-left: 5%;
     padding-left: 5%;
     padding-right: 15%;
+    position: fixed;
+    right: 0;
 }
+
+header nav li:not(.navburger) {
+    display: none;
+}
+
+
 
 .splash-title {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
-    align-content: flex-start;
-    padding-top: 36vh;
-    
+    align-content: flex-end;
+    height: 64vh;
 }
 
 .splash-title .box {
     padding: 1rem;
     margin-right: auto;
     margin-left: 0;
-    max-width: 360px;
+    max-width: 256px;
 }
 
 .link-box {
@@ -66,4 +73,25 @@ header nav ul {
     justify-content: space-between;
     padding-top: .5rem;
     min-width: 200px;
+}
+
+@media (min-width: 700px) {
+    .navburger {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1 1 20%;
+        margin-left: 5%;
+        padding-left: 5%;
+        padding-right: 15%;
+    }
+
+    
+    header nav li:not(.navburger) {
+        display: block;
+    }
 }
