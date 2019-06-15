@@ -23,23 +23,30 @@ ul {
 
 header {
     height: 85vh;
-    min-height: 500px;
+    min-height: 520px;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
+    align-items: center;
+    height: 12vh;
     
 }
+
+h1 {
+    font-size: 7vw;
+}
+
 header nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 1 1 40%;
-    margin-left: 5%;
-    padding-left: 5%;
-    padding-right: 15%;
+    margin-left: 2.5%;
+    padding-left: 2.5%;
+    padding-right: 10%;
     position: fixed;
     right: 0;
 }
@@ -55,7 +62,9 @@ header nav li:not(.navburger) {
     flex-flow: column nowrap;
     justify-content: flex-end;
     align-content: flex-end;
-    height: 64vh;
+    padding-bottom: 10px;
+    height: 70vh;
+    min-height: 450px;
 }
 
 .splash-title .box {
@@ -76,6 +85,9 @@ header nav li:not(.navburger) {
 }
 
 @media (min-width: 700px) {
+    h1 {
+        font-size: 4vw;
+    }
     .navburger {
         display: none;
     }
@@ -85,9 +97,11 @@ header nav li:not(.navburger) {
         justify-content: space-between;
         align-items: center;
         flex: 1 1 20%;
-        margin-left: 5%;
-        padding-left: 5%;
+        max-width: 50%;
+        margin-left: 2.5%;
+        padding-left: 2.5%;
         padding-right: 15%;
+        position: static;
     }
 
     

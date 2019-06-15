@@ -189,7 +189,7 @@ ul {
 
 header {
   height: 85vh;
-  min-height: 500px;
+  min-height: 520px;
 }
 
 header nav {
@@ -200,6 +200,14 @@ header nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 1rem 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 12vh;
+}
+
+h1 {
+  font-size: 7vw;
 }
 
 header nav ul {
@@ -215,9 +223,9 @@ header nav ul {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40%;
           flex: 1 1 40%;
-  margin-left: 5%;
-  padding-left: 5%;
-  padding-right: 15%;
+  margin-left: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 10%;
   position: fixed;
   right: 0;
 }
@@ -239,7 +247,9 @@ header nav li:not(.navburger) {
           justify-content: flex-end;
   -ms-flex-line-pack: end;
       align-content: flex-end;
-  height: 64vh;
+  padding-bottom: 10px;
+  height: 70vh;
+  min-height: 450px;
 }
 
 .splash-title .box {
@@ -265,6 +275,9 @@ header nav li:not(.navburger) {
 }
 
 @media (min-width: 700px) {
+  h1 {
+    font-size: 4vw;
+  }
   .navburger {
     display: none;
   }
@@ -281,9 +294,11 @@ header nav li:not(.navburger) {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 20%;
             flex: 1 1 20%;
-    margin-left: 5%;
-    padding-left: 5%;
+    max-width: 50%;
+    margin-left: 2.5%;
+    padding-left: 2.5%;
     padding-right: 15%;
+    position: static;
   }
   header nav li:not(.navburger) {
     display: block;
