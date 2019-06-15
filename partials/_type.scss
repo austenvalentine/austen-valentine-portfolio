@@ -18,6 +18,10 @@ header nav {
     font-weight: 500;
 }
 
+h1 {
+    font-size: 7vw;
+}
+
 .title-extra-bold {
     font-weight: 800;
 }
@@ -27,4 +31,10 @@ header nav {
 
 .link-box {
     text-align: center;
+}
+
+@media (min-width: 700px) {
+    h1 {
+        font-size: 1.8rem;
+    }
 }

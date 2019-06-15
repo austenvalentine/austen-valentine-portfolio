@@ -35,9 +35,7 @@ header nav {
     
 }
 
-h1 {
-    font-size: 7vw;
-}
+
 
 header nav ul {
     display: flex;
@@ -85,9 +83,6 @@ header nav li:not(.navburger) {
 }
 
 @media (min-width: 700px) {
-    h1 {
-        font-size: 4vw;
-    }
     .navburger {
         display: none;
     }
