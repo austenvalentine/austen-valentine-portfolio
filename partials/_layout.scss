@@ -48,6 +48,7 @@ header nav ul {
     padding-right: 2.5%;
     position: fixed;
     right: 0;
+    margin-right: 10%;
 }
 
 header nav li:not(.navburger) {
@@ -128,7 +129,7 @@ h3 {
     align-items: center;
     font-size: 3rem;
 }
-@media (min-width: 700px) {
+@media (min-width: 760px) {
     .navburger {
         display: none;
     }
