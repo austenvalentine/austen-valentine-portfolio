@@ -9,6 +9,12 @@ a {
     color: teal;
 }
 
+p, .profile-deets, .portfolio {
+    font-family: "Open Sans";
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
 h1, h2, h3, h4, h5, h6, header nav {
     font-family: "Raleway";
     color: teal;
@@ -29,12 +35,10 @@ h1 {
     font-weight: 500;
 }
 
-.link-box {
-    text-align: center;
-}
+
 
 @media (min-width: 700px) {
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 }

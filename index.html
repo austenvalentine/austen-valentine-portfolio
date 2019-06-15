@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="full-bleed-right">
+        <nav class="content-wrapper">
             <h1><span class="title-extra-bold">Austen</span> <span class="title-light">Valentine</span></h1>
             <ul>
                 <li><div class="link-box"><a href="#profile">Profile</a></div></li>
@@ -26,8 +26,8 @@
                 <h4>Web Developer</h4>
                 <h2>Front-End</h2>
                 <div class="link-boxes">
-                    <div class="link-box"><a>Contact</a></div>
-                    <div class="link-box"><a>Portfolio</a></div>
+                    <div class="link-box"><a href="#contact">Contact</a></div>
+                    <div class="link-box"><a href="#portfolio">Portfolio</a></div>
                 </div>
             </div>
         </div>
@@ -35,26 +35,45 @@
     <main>
         <section class="about">
             <div class="content-wrapper data-sheet">
-                <h3>About Me</h3>
-                <div class="profile-copy">
-                    <p>I am a front-end developer in Toronto, Ontario. I am proud to be a graduate of HackerYou's Full-Time Web Development Immersive program (aka boot camp). Writing and debugging the web in Javascript, HTML and CSS is fun!</p>
-                    <p>Every project requires flexibility, but my ideal creative process is guided by principles: Listening before speaking. Whiteboard before keyboard. Simplicity before sophistication. Consistency before speed. Clarity before cleverness. </p>
-                    <p>Among my technical skills are version control with Git, compiled stylesheets with SASS, prototyping with JQuery, implementation with React.js and Firebase, responsive web design and web accessibility for dynamic content. I also enjoy learning computer science concepts such as language design and implementation. For example, I built a simplified Python interpreter &#8212; in Python!.</p>
+                <div class="heading-box">
+                    <h3>About Me</h3>
+                    <div class="heading-deco"></div>
                 </div>
-                <ul>
-                    <li><span class="label">Name :</span>Austen Valentine</li>
-                    <li><span class="label">Profession :</span>Web Developer</li>
-                    <li><span class="label">Skills :</span>JavaScript Programming</li>
-                    <li><span class="label">Twitter :</span> <a href="https://twitter.com/austenfound"><i class="fab fa-twitter"></i></a></li>
-                </ul>
+                <table class="profile-deets">
+                    <tr>
+                        <td class="deet-label">Name</td>
+                        <td class="deet-separator">:</td>
+                        <td class="deet-value">Austen Valentine</td>
+                    </tr>
+                    <tr>
+                        <td class="deet-label">Profession</td>
+                        <td class="deet-separator">:</td>
+                        <td class="deet-value">Web Developer</td>
+                    </tr>
+                    <tr>
+                        <td class="deet-label">Skills</td>
+                        <td class="deet-separator">:</td>
+                        <td class="deet-value">JQuery & React.js</td>
+                    </tr>
+                    <tr>
+                        <td class="deet-label"><i class="fab fa-twitter"></i> Twitter</td>
+                        <td class="deet-separator">:</td>
+                        <td class="deet-value"><a href="https://twitter.com/austenfound">@austenfound</a></td>
+                    </tr>
+                </table>
+                <article class="profile-copy">
+                    <p>I am a front-end developer in Toronto, Ontario. I am proud to be a graduate of HackerYou's Full-Time Web Development Immersive program (aka boot camp). Writing and debugging the web in Javascript, HTML and CSS is fun!</p>
+                    <p>Every project requires flexibility, but my ideal creative process is guided by principles: Listening before speaking. Whiteboard before keyboard. Consistency before speed. Clarity before cleverness. </p>
+                    <p>Among my technical skills are version control with Git, compiled stylesheets with SASS, dynamic content with JQuery and React.js, NoSQL with Firebase, responsive web design, and accessibility for screen-readers and keyboard navigation. I also enjoy learning computer science concepts such as language design and implementation. For example, I built a simplified Python interpreter &#8212; in Python!</p>
+                </article>
                 <div class="tech-skills">
                     <ul>
-                        <li><i class="devicon-html5-plain"></i>HTML5</li>
-                        <li><i class="devicon-javascript-plain"></i>JavaScript</li>
-                        <li><i class="devicon-sass-original"></i>SCSS</li>
-                        <li><i class="devicon-jquery-plain"></i>JQuery</li>
-                        <li><i class="devicon-react-original"></i>React.js</li>
-                        <li><i class="devicon-github-plain"></i>Github</li>
+                        <li><i class="devicon-javascript-plain"></i></li>
+                        <li><i class="devicon-github-plain"></i></li>
+                        <li><i class="devicon-jquery-plain"></i></li>
+                        <li><i class="devicon-react-original"></i></li>
+                        <li><i class="devicon-sass-original"></i></li>
+                        <li><i class="devicon-python-plain"></i></li>
                     </ul>
                 </div>
             </div>
@@ -66,7 +85,6 @@
                 <li>Pan-African MemoJam: Memorize National Flags Across Africa</li>
             </ul>
         </section>
-        
     </main>
     <footer>
 

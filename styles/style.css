@@ -182,9 +182,7 @@ ul {
 }
 
 .full-bleed-right {
-  max-width: 1440;
-  margin-left: 10%;
-  margin-right: 0;
+  margin: 0;
 }
 
 header {
@@ -206,6 +204,10 @@ header nav {
   height: 12vh;
 }
 
+header nav h1 {
+  text-align: left;
+}
+
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -221,7 +223,7 @@ header nav ul {
           flex: 1 1 40%;
   margin-left: 2.5%;
   padding-left: 2.5%;
-  padding-right: 10%;
+  padding-right: 2.5%;
   position: fixed;
   right: 0;
 }
@@ -257,6 +259,7 @@ header nav li:not(.navburger) {
 
 .link-box {
   padding: .5rem;
+  text-align: center;
 }
 
 .splash-title .link-boxes {
@@ -268,6 +271,63 @@ header nav li:not(.navburger) {
           justify-content: space-between;
   padding-top: .5rem;
   min-width: 200px;
+}
+
+h3 {
+  padding: 2rem 0;
+}
+
+.profile-deets {
+  margin: 0 auto;
+}
+
+.profile-deets .deet-label {
+  padding: 0;
+  width: 100px;
+}
+
+.profile-deets
+.profile-deets .deet-value {
+  padding: 0;
+  width: 160px;
+}
+
+.profile-deets .deet-value {
+  padding-left: 1rem;
+}
+
+.profile-copy {
+  padding: 2rem 0;
+}
+
+.tech-skills ul {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tech-skills li {
+  min-width: 120px;
+  width: 30%;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
 }
 
 @media (min-width: 700px) {
@@ -290,7 +350,6 @@ header nav li:not(.navburger) {
     max-width: 50%;
     margin-left: 2.5%;
     padding-left: 2.5%;
-    padding-right: 15%;
     position: static;
   }
   header nav li:not(.navburger) {
@@ -305,6 +364,12 @@ html {
 a {
   text-decoration: none;
   color: teal;
+}
+
+p, .profile-deets, .portfolio {
+  font-family: "Open Sans";
+  font-size: 0.8rem;
+  line-height: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6, header nav {
@@ -328,13 +393,9 @@ h1 {
   font-weight: 500;
 }
 
-.link-box {
-  text-align: center;
-}
-
 @media (min-width: 700px) {
   h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -350,7 +411,7 @@ header {
 
 header nav ul {
   background-color: #efefefcd;
-  border-radius: .4rem 0 0 .4rem;
+  border-radius: .4rem;
 }
 
 .splash-title > .box {
