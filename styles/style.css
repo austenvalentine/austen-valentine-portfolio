@@ -382,6 +382,7 @@ h3 {
 .portfolio p {
   margin: 0;
   text-align: center;
+  padding: 1rem;
 }
 
 @media (min-width: 760px) {
