@@ -9,7 +9,7 @@ a {
     color: teal;
 }
 
-p, .profile-deets, .portfolio {
+p, .profile-deets, .portfolio li {
     font-family: "Open Sans";
     font-size: 0.8rem;
     line-height: 1.5rem;
@@ -35,10 +35,17 @@ h1 {
     font-weight: 500;
 }
 
+.tech-skills li {
+    font-size: 3rem;
+}
+
 
 
 @media (min-width: 700px) {
     h1 {
         font-size: 1.6rem;
+    }
+    p, .profile-deets, .portfolio li {
+        font-size: 1rem;
     }
 }
