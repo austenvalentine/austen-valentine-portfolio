@@ -142,19 +142,19 @@ h3 {
     min-width: 256px;
     padding: 0 0 1rem 0;
     margin: 0 auto;
-    width: 30%;
+    flex: 1 0 30%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio img {
     min-width: 256px;
+    margin: 0 auto;
 }
 
 .portfolio p {
-    padding: 1rem;
     margin: 0;
     text-align: center;
 }
