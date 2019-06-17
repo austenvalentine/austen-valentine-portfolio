@@ -136,11 +136,12 @@ h3 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    
 }
 .portfolio li {
     min-width: 256px;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     width: 30%;
     display: flex;
     flex-flow: column nowrap;
