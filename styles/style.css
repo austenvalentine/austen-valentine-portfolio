@@ -230,6 +230,7 @@ header nav ul {
   padding-right: 2.5%;
   position: fixed;
   right: 0;
+  margin-right: 10%;
 }
 
 header nav li:not(.navburger) {
@@ -402,6 +403,7 @@ h3 {
     margin-left: 2.5%;
     padding-left: 2.5%;
     position: static;
+    margin-right: 0;
   }
   header nav li:not(.navburger) {
     display: block;
