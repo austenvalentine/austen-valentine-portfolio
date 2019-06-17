@@ -9,6 +9,10 @@ a {
     color: teal;
 }
 
+a:hover {
+    font-weight: bolder;
+}
+
 p, .profile-deets, .portfolio li {
     font-family: "Open Sans";
     font-size: 0.8rem;
