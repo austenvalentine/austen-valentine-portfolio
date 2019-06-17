@@ -56,7 +56,6 @@ header nav li:not(.navburger) {
 }
 
 
-
 .splash-title {
     display: flex;
     flex-flow: column nowrap;
@@ -113,7 +112,7 @@ h3 {
 }
 
 .tech-skills ul {
-    padding: 1rem 0;
+    // padding: 1rem 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -121,13 +120,14 @@ h3 {
 }
 
 .tech-skills li {
-    min-width: 120px;
+    min-width: 105px;
+    padding: 0;
+    margin: 0;
     width: 30%;
-    height: 120px;
+    height: 105px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
 }
 @media (min-width: 760px) {
     .navburger {

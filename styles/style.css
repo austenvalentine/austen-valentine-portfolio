@@ -302,7 +302,6 @@ h3 {
 }
 
 .tech-skills ul {
-  padding: 1rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,9 +315,11 @@ h3 {
 }
 
 .tech-skills li {
-  min-width: 120px;
+  min-width: 105px;
+  padding: 0;
+  margin: 0;
   width: 30%;
-  height: 120px;
+  height: 105px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -328,7 +329,6 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 3rem;
 }
 
 @media (min-width: 760px) {
@@ -367,7 +367,11 @@ a {
   color: teal;
 }
 
-p, .profile-deets, .portfolio {
+a:hover {
+  font-weight: bolder;
+}
+
+p, .profile-deets, .portfolio li {
   font-family: "Open Sans";
   font-size: 0.8rem;
   line-height: 1.5rem;
@@ -394,9 +398,16 @@ h1 {
   font-weight: 500;
 }
 
+.tech-skills li {
+  font-size: 3rem;
+}
+
 @media (min-width: 760px) {
   h1 {
     font-size: 1.6rem;
+  }
+  p, .profile-deets, .portfolio li {
+    font-size: 1rem;
   }
 }
 
