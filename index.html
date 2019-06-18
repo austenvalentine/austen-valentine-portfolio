@@ -33,11 +33,11 @@
     </header>
     <main>
         <section class="about">
+            <div class="content-wrapper heading-box">
+                <h3 id="profile">Profile</h3>
+                <div class="heading-deco"></div>
+            </div>
             <div class="content-wrapper data-sheet">
-                <div class="heading-box">
-                    <h3 id="profile">About Me</h3>
-                    <div class="heading-deco"></div>
-                </div>
                 <table class="profile-deets">
                     <tr>
                         <td class="deet-label">Name</td>
@@ -45,24 +45,24 @@
                         <td class="deet-value">Austen Valentine</td>
                     </tr>
                     <tr>
-                        <td class="deet-label">Profession</td>
+                        <td class="deet-label">Role</td>
                         <td class="deet-separator">:</td>
                         <td class="deet-value">Web Developer</td>
                     </tr>
                     <tr>
                         <td class="deet-label">Skills</td>
                         <td class="deet-separator">:</td>
-                        <td class="deet-value">JQuery & React.js</td>
+                        <td class="deet-value">JavaScript, Python</td>
                     </tr>
                     <tr>
-                        <td class="deet-label"><i class="fab fa-twitter"></i> Twitter</td>
+                        <td class="deet-label">Twitter</td>
                         <td class="deet-separator">:</td>
                         <td class="deet-value"><a href="https://twitter.com/austenfound">@austenfound</a></td>
                     </tr>
                 </table>
                 <article class="profile-copy">
                     <p>I am a front-end developer in Toronto, Ontario. I am proud to be a graduate of HackerYou's Web Development Immersive (Bootcamp) program. Writing and debugging the web in Javascript, HTML and CSS is fun!</p>
-                    <p>Among my technical skills are version control with Git, compiled stylesheets with SASS, dynamic content with JQuery and React.js, NoSQL with Firebase, responsive web design, and accessibility for screen-readers and keyboard navigation. I also enjoy learning computer science concepts such as language design and implementation. For example, I built a simplified Python interpreter &#8212; in Python!</p>
+                    <p>Among my technical skills are version control with Git, compiled stylesheets with SASS, dynamic content with jQuery and React.js, NoSQL with Firebase, responsive web design, and accessibility for screen-readers and keyboard navigation. I also enjoy learning computer science concepts such as language design and implementation. For example, I built a simplified Python interpreter &#8212; in Python!</p>
                     <p>Every project requires flexibility, but my ideal creative process is guided by principles: Listening before speaking. Whiteboard before keyboard. Consistency before speed. Clarity before cleverness. </p>
                 </article>
             </div>
@@ -95,7 +95,7 @@
                         <a href="https://austenvalentine.com/netrecipe">
                             <img src="assets/netrecipe-screencap.jpg">
                         </a>
-                        <p>Find recipes for your dietary needs &#8212; a team project with Brian Kan.</p>
+                        <p>Find recipes for your dietary needs &#8212; a team project with <a href="https://github.com/Brian-Kan">Brian Kan</a>.</p>
                     </li>
                     <li>
                         <h4>Pan-African MemoJam</h4>
@@ -109,13 +109,19 @@
         </section>
         <section class="contact">
             <div class="content-wrapper">
-                <h3 id="contact"></h3>
-                
+                <h3 id="contact">Contact</h3>
+                <form class="contact-form" action="https://formspree.io/wave@austenvalentine.com" method="POST">
+                    <textarea class="message" placeholder="Questions? I'd love to hear from you!" type="text" name="name"></textarea></textarea>
+                    <div class="input-wrap">
+                        <input class="email-address" placeholder="email@address.here" type="email" name="_replyto">
+                        <input class="submit-button" type="submit" value="Send">
+                    </div>
+                </form>
             </div>    
         </section>
     </main>
     <footer>
-
+        
     </footer>
 </body>
 </html>

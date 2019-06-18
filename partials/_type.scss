@@ -13,7 +13,7 @@ a:hover {
     font-weight: bolder;
 }
 
-p, .profile-deets, .portfolio li {
+p, .profile-deets, .portfolio li, form {
     font-family: "Open Sans";
     font-size: 0.8rem;
     line-height: 1.5rem;
@@ -34,10 +34,10 @@ h1 {
     text-shadow: -1px -1px 0 rgba(192,192,192, .3),
                 -1px 0 0 rgba(192,192,192, .3),
                 0 -1px 0 rgba(192,192,192, .3),
-                1px 0px 0 rgba(100,100,100 .3),
+                1px 0px 0 rgba(100,100,100, .3),
                 1px 1px 0 rgba(100,100,100, .3),
                 -1px 1px 0 rgba(144,144,114, .3),
-                1px -1px 0 0 rgba(144,144,144, .3);
+                1px -1px 0 rgba(144,144,144, .3);
 
                 
 }
