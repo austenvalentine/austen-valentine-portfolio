@@ -29,15 +29,19 @@ header nav {
 }
 
 h1 {
-    font-size: 7vw;
+    font-weight: 500;
+    font-size: 2rem;
+    text-shadow: -1px -1px 0 rgba(192,192,192, .3),
+                -1px 0 0 rgba(192,192,192, .3),
+                0 -1px 0 rgba(192,192,192, .3),
+                1px 0px 0 rgba(100,100,100 .3),
+                1px 1px 0 rgba(100,100,100, .3),
+                -1px 1px 0 rgba(144,144,114, .3),
+                1px -1px 0 0 rgba(144,144,144, .3);
+
+                
 }
 
-.title-extra-bold {
-    font-weight: 800;
-}
-.title-light {
-    font-weight: 500;
-}
 
 .tech-skills li {
     font-size: 3rem;
@@ -46,17 +50,7 @@ h1 {
 
 
 @media (min-width: 760px) {
-    h1 {
-        font-size: 1.6rem;
-    }
     p, .profile-deets, .portfolio li {
         font-size: 1rem;
-    }
-}
-
-@media (min-width: 1000px) {
-    h1 {
-        font-size: 2rem;
-
     }
 }

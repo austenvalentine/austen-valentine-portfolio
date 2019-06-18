@@ -1,13 +1,13 @@
 header {
     background-image: url(../assets/splash-portrait.jpg);
     background-size: cover;
-    background-position: 82% 90%;
+    background-position: 82% 55%;
 }
 
-header nav ul {
+header nav {
     background-color: #efefefcd;
-    border-radius: .4rem;
 }
+
 
 .splash-title > .box {
     background-color: #cdcdcdcd;
@@ -16,4 +16,8 @@ header nav ul {
 
 .splash-title .link-box{
     background-color: #efefefcd;
+}
+
+.skills {
+    background-color: #d8d8d8;
 }
