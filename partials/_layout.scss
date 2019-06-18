@@ -33,46 +33,16 @@ header nav {
     top: 0;
     width: 100%;
 }
-// header nav {
-//     display: flex;
-//     flex-flow: row wrap;
-//     justify-content: space-between;
-//     padding: 1rem 0;
-//     align-items: center;
-//     height: 12vh;
-    
-// }
-
-header nav h1 {
-    text-align: left;
-}
-
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
-// header nav ul {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     flex: 1 1 40%;
-//     margin-left: 2.5%;
-//     padding-left: 2.5%;
-//     padding-right: 2.5%;
-//     position: fixed;
-//     right: 0;
-//     margin-right: 10%;
-// }
 
-// header nav li:not(.navburger) {
-//     display: none;
-// }
-header nav .navburger {
-    display: none;
+header nav li {
+    flex: 0 1;
 }
-
 
 .splash-title {
     display: flex;
@@ -92,13 +62,13 @@ header nav .navburger {
 }
 
 .link-box {
-    padding: .5rem;
+    padding: 10px;
     text-align: center;
 }
 .splash-title .link-boxes {
     display: flex;
     justify-content: space-between;
-    padding-top: .5rem;
+    padding-top: 10px;
     min-width: 200px;
 }
 
@@ -106,15 +76,23 @@ h3 {
     padding: 2rem 0;
 }
 
+.data-sheet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
 .profile-deets {
-    margin: 0 auto;
+    width: 288px;
+    flex-flow: row wrap;
+    table-layout: fixed;
 }
 .profile-deets .deet-label {
     padding: 0;
     width: 100px;
-}
 
-.profile-deets
+}
 
 .profile-deets .deet-value {
     padding: 0;
@@ -122,11 +100,14 @@ h3 {
 }
 
 .profile-deets .deet-value {
-    padding-left: 1rem;
+    padding-left: .5rem;
 }
 
 .profile-copy {
-    padding: 2rem 0;
+    max-width: 600px;
+    min-width: 288px;
+    line-height: 2;
+    
 }
 
 .tech-skills {
@@ -148,9 +129,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column nowrap;
 }
-
-
 
 .portfolio ul {
     display: flex;
@@ -180,3 +160,38 @@ h3 {
     text-align: center;
     padding: 1rem;
 }
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding:  1rem 10%;
+}
+
+.contact-form .message {
+    width: 100%;
+    height: 300px;
+    margin: 5px;
+    border: 0;
+}
+.contact-form .input-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.contact-form .input-wrap input {
+    margin: 5px;
+    border: 0;
+    width: 50%;
+    height: 3rem;
+    padding: 1rem;
+}
+
+@media (min-width: 1111px) {
+    .data-sheet {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
+
