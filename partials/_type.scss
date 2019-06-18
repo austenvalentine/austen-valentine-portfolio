@@ -47,10 +47,14 @@ h1 {
     font-size: 3rem;
 }
 
+.tech-skills .skill-name {
+    line-height: 2;
+    font-size: 1rem;
+}
 
 
 @media (min-width: 760px) {
-    p, .profile-deets, .portfolio li {
+    p, .portfolio li {
         font-size: 1rem;
     }
 }
