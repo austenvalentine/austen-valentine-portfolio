@@ -199,6 +199,7 @@ header {
 header nav {
   position: fixed;
   top: 0;
+  padding: 10px 0;
   width: 100%;
 }
 
@@ -440,6 +441,14 @@ h3 {
 }
 
 @media (min-width: 500px) {
+  header nav ul {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  header nav li {
+    margin-right: 60px;
+  }
   .contact-form input.email-address {
     width: 67%;
   }
