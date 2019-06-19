@@ -25,10 +25,6 @@ header {
 }
 
 header nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: flex-start;
     position: fixed;
     top: 0;
     width: 100%;
@@ -36,12 +32,16 @@ header nav {
 
 header nav ul {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: space-between;
+    width: 50%;
 }
 
 header nav li {
     flex: 0 1;
+    display: flex;
+    justify-content: center;
+
 }
 
 .splash-title {
@@ -62,7 +62,6 @@ header nav li {
 }
 
 .link-box {
-    padding: 10px;
     text-align: center;
 }
 .splash-title .link-boxes {
@@ -89,6 +88,7 @@ h3 {
     width: 256px;
     flex-flow: row wrap;
     table-layout: fixed;
+    margin: 0 auto;
 }
 .profile-deets .deet-label {
     padding: 0;
