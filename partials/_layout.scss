@@ -47,7 +47,7 @@ header nav li {
 .splash-title {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-content: flex-end;
     padding-bottom: 10px;
     height: 70vh;
@@ -55,10 +55,10 @@ header nav li {
 }
 
 .splash-title .box {
-    padding: 1rem;
+    padding: .4rem 1rem;
     margin-right: auto;
     margin-left: 0;
-    max-width: 256px;
+    max-width: 200px;
 }
 
 .link-box {
@@ -72,8 +72,10 @@ header nav li {
     min-width: 200px;
 }
 
+
+
 h3 {
-    padding: 2rem 0;
+    padding: 2rem 0 1rem 0;
 }
 
 .data-sheet {
@@ -84,13 +86,13 @@ h3 {
 }
 
 .profile-deets {
-    width: 288px;
+    width: 256px;
     flex-flow: row wrap;
     table-layout: fixed;
 }
 .profile-deets .deet-label {
     padding: 0;
-    width: 100px;
+    width: 70px;
 
 }
 
@@ -105,7 +107,7 @@ h3 {
 
 .profile-copy {
     max-width: 600px;
-    min-width: 288px;
+    min-width: 256px;
     line-height: 2;
     
 }
@@ -118,14 +120,17 @@ h3 {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .tech-skills li {
     min-width: 105px;
     padding: 0;
     margin: 0;
-    width: 30%;
-    height: 105px;
+    
+    width: 25%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,28 +175,38 @@ h3 {
 .contact-form .message {
     width: 100%;
     height: 300px;
-    margin: 5px;
     border: 0;
+    padding: 1rem;
 }
 .contact-form .input-wrap {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
     width: 100%;
-
 }
 
 .contact-form .input-wrap input {
-    margin: 5px;
     border: 0;
-    width: 50%;
     height: 3rem;
     padding: 1rem;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+
+    .contact-form input.email-address {
+        width: 67%;
+    }
+    .contact-form input.submit-button {
+        width: 33%;
+    }
 }
 
 @media (min-width: 1111px) {
     .data-sheet {
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 

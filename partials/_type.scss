@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway:500,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|VT323|Raleway:500,800&display=swap');
 
 html {
     font-size: 125%;
@@ -30,7 +30,7 @@ header nav {
 
 h1 {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-shadow: -1px -1px 0 rgba(192,192,192, .3),
                 -1px 0 0 rgba(192,192,192, .3),
                 0 -1px 0 rgba(192,192,192, .3),
@@ -38,8 +38,11 @@ h1 {
                 1px 1px 0 rgba(100,100,100, .3),
                 -1px 1px 0 rgba(144,144,114, .3),
                 1px -1px 0 rgba(144,144,144, .3);
+}
 
-                
+.splash-title .box h4,
+.splash-title .box h2 {
+    line-height: 1.3;
 }
 
 
@@ -48,8 +51,15 @@ h1 {
 }
 
 .tech-skills .skill-name {
+    font-family: 'VT323';
     line-height: 2;
-    font-size: 1rem;
+    font-size: 1.2rem;
+}
+
+.contact-form input.submit-button {
+    font-weight: bolder;
+    color: white;
+
 }
 
 
