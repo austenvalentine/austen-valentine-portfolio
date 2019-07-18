@@ -12,65 +12,90 @@
     <title>Austen Valentine: Front-End Web Developer</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="content-wrapper">
-                <li><div class="link-box"><a href="#contact">Contact</a></div></li>
-                <li><div class="link-box"><a href="#portfolio">Portfolio</a></div></li>
-                <li><div class="link-box"><a href="#profile">Profile</a></div></li>
-            </ul>
-        </nav>
+    <header id="top">
         <div class="content-wrapper splash-title">
             <div class="box">
                 <h1>Austen Valentine</h1>
-                <h4>Web Developer</h4>
                 <h2>Front-End</h2>
+                <h4>Web Developer</h4>
             </div>
         </div>
     </header>
     <main>
-        <section class="about">
+        <section class="about" id="about">
             <div class="content-wrapper heading-box">
                 <h3 id="profile">Profile</h3>
                 <div class="heading-deco"></div>
             </div>
             <div class="content-wrapper data-sheet">
-                <table class="profile-deets">
-                    <tr>
-                        <td class="deet-label">Name</td>
-                        <td class="deet-separator">:</td>
-                        <td class="deet-value">Austen Valentine</td>
-                    </tr>
-                    <tr>
-                        <td class="deet-label">Role</td>
-                        <td class="deet-separator">:</td>
-                        <td class="deet-value">Web Developer</td>
-                    </tr>
-                    <tr>
-                        <td class="deet-label">Skills</td>
-                        <td class="deet-separator">:</td>
-                        <td class="deet-value">JavaScript, Python</td>
-                    </tr>
-                    <tr>
-                        <td class="deet-label">Twitter</td>
-                        <td class="deet-separator">:</td>
-                        <td class="deet-value"><a href="https://twitter.com/austenfound">@austenfound</a></td>
-                    </tr>
-                </table>
                 <article class="profile-copy">
-                    <p>I am a front-end developer in Toronto, Ontario. I am a proud graduate of HackerYou's Web Development Immersive (Bootcamp) program. Writing and debugging the web in Javascript, HTML and CSS is fun!</p>
-                    <p>Among my technical skills are version control with Git, compiled stylesheets with SASS, dynamic content with jQuery and React.js, NoSQL with Firebase, responsive web design, and accessibility for screen-readers and keyboard navigation. I also enjoy learning computer science concepts such as language design and implementation. For example, I built a simplified Python interpreter &#8212; in Python!</p>
-                    <p>Every project requires flexibility, but my ideal creative process is guided by principles: Listening before speaking. Whiteboard before keyboard. Consistency before speed. Clarity before cleverness. </p>
+                    <p>
+                        Hi, I’m Austen! I’m a front-end developer from Toronto. My creative process is guided by four principles: Listening
+                        before speaking. Whiteboard before keyboard. Consistency before speed. Clarity before cleverness.
+                    </p>
+                    <p>
+                        Among my technical skills are version control and collaboration with Git, pixel perfect styling with SASS and CSS
+                        frameworks, dynamic content with JavaScript, jQuery and React.js, NoSQL with Firebase, responsive web design, and web
+                        accessibility. I also enjoy learning computer science concepts such as language design and implementation. For example,
+                        <a src="https://gitlab.com/austenvalentine/lmpthw_solutions/tree/master/ex35/part4project">I built a simplified Python interpreter — in Python!</a>
+                    </p>             
+                    <p>
+                        If you have any questions or would like to say hi, contact me.
+                    </p>       
+                    <a class="scroll-down" href="#portfolio"></a>
                 </article>
             </div>
         </section>
-        <section class="skills">
+        <section class="portfolio" id="portfolio">
+            <div class="content-wrapper">
+                <h3 id="portfolio">Portfolio</h3>
+                <ul>
+                    <li>
+                        <h4>CatChoosy</h4>
+                        <a href="https://austenvalentine.com/catchoosy">
+                            <img src="assets/mockup-phone-catchoosy.jpg">
+                        </a>
+                        <ul>
+                            <li>mobile-first design</li>
+                            <li>RESTful API</li>
+                            <li>Firebase</li>
+                            <li>React</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>NetRecipe</h4>
+                        <a href="https://austenvalentine.com/netrecipe">
+                            <img src="assets/mockup-phone-netrecipe.jpg">
+                        </a>
+                        <ul>
+                            <li><a href="https://github.com/netrecipe">paired programming</a></li>
+                            <li>mobile-first design</li>
+                            <li>RESTful API</li>
+                            <li>jQuery</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Pan-African MemoJam</h4>
+                        <a href="https://austenvalentine.com/pan-african-memo-jam">
+                            <img src="assets/mockup-phone-pan-african-memojam.jpg">
+                        </a>
+                        <ul>
+                            <li>accessibility compliance</li>
+                            <li>education technology</li>
+                            <li>responsive design</li>
+                            <li>jQuery</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="skills" id="skills">
             <div class="tech-skills">
                 <ul>
                     <li><i class="devicon-javascript-plain"></i><span class="skill-name">JavaScript</span></li>
                     <li><i class="devicon-github-plain"></i><span class="skill-name">GitHub</span></li>
                     <li><i class="devicon-jquery-plain"></i><span class="skill-name">jQuery</span></li>
-                    <li><i class="devicon-react-original"></i><span class="skill-name">react</span></li>
+                    <li><i class="devicon-react-original"></i><span class="skill-name">React</span></li>
                     <li><i class="devicon-sass-original"></i><span class="skill-name">Sass</span></li>
                     <li><i class="devicon-python-plain"></i><span class="skill-name">Python</span></li>
                     <li><i class="devicon-html5-plain"></i><span class="skill-name">HTML5</span></li>
@@ -78,35 +103,7 @@
                 </ul>
             </div>
         </section>
-        <section class="portfolio">
-            <div class="content-wrapper">
-                <h3 id="portfolio">Portfolio</h3>
-                <ul>
-                    <li>
-                        <h4>CatChoosy</h4>
-                        <a href="https://austenvalentine.com/catchoosy">
-                            <img src="assets/catchoosy-screencap.jpg">
-                        </a>
-                        <p>Vote for your favourite cat photos.</p>
-                    </li>
-                    <li>
-                        <h4>NetRecipe</h4>
-                        <a href="https://austenvalentine.com/netrecipe">
-                            <img src="assets/netrecipe-screencap.jpg">
-                        </a>
-                        <p>Find recipes for your dietary needs &#8212; a team project with <a href="https://github.com/Brian-Kan">Brian Kan</a>.</p>
-                    </li>
-                    <li>
-                        <h4>Pan-African MemoJam</h4>
-                        <a href="https://austenvalentine.com/pan-african-memo-jam">
-                            <img src="assets/memojam-screencap.jpg">
-                        </a>
-                        <p>Memorize national flags from across Africa.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="content-wrapper">
                 <h3 id="contact">Contact</h3>
                 <form class="contact-form" action="https://formspree.io/wave@austenvalentine.com" method="POST">
@@ -120,7 +117,7 @@
         </section>
     </main>
     <footer>
-        
+        Copyright &#169; 2019 Austen Valentine
     </footer>
 </body>
 </html>
