@@ -28,14 +28,27 @@ header {
     flex-flow: column nowrap;
     justify-content: flex-end;
     align-content: flex-end;
-    height: 20vh;
-    min-height: 450px;
+    height: 15vh;
+    min-height: 400px;
 }
 
 .splash-title .box {
     padding: 20px;
     margin-right: auto;
     margin-left: 0;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.scroll-down a {
+    padding: 20px;
 }
 
 h3 {
