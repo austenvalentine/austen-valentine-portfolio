@@ -18,31 +18,9 @@ ul {
 }
 
 header {
-    padding-top: 3rem;
-    height: 85vh;
+    height: 100vh;
     min-height: 520px;
     position: relative;
-}
-
-header nav {
-    position: fixed;
-    top: 0;
-    padding: 10px 0;
-    width: 100%;
-}
-
-header nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 50%;
-}
-
-header nav li {
-    flex: 0 1;
-    display: flex;
-    justify-content: center;
-
 }
 
 .splash-title {
@@ -50,78 +28,51 @@ header nav li {
     flex-flow: column nowrap;
     justify-content: flex-end;
     align-content: flex-end;
-    padding-bottom: 10px;
-    height: 70vh;
+    height: 20vh;
     min-height: 450px;
 }
 
 .splash-title .box {
-    padding: .4rem 1rem;
+    padding: 20px;
     margin-right: auto;
     margin-left: 0;
-    max-width: 200px;
 }
-
-.link-box {
-    text-align: center;
-}
-.splash-title .link-boxes {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    min-width: 200px;
-}
-
-
 
 h3 {
-    padding: 2rem 0 1rem 0;
+    padding: 40px 0;
 }
 
 .data-sheet {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-flow: column nowrap;
-}
-
-.profile-deets {
-    width: 256px;
-    flex-flow: row wrap;
-    table-layout: fixed;
-    margin: 0 auto;
-}
-.profile-deets .deet-label {
-    padding: 0;
-    width: 70px;
-
-}
-
-.profile-deets .deet-value {
-    padding: 0;
-    width: 160px;
-}
-
-.profile-deets .deet-value {
-    padding-left: .5rem;
+    padding-bottom: 40px;
 }
 
 .profile-copy {
     max-width: 600px;
     min-width: 256px;
     line-height: 2;
-    
+}
+
+article.profile-copy p {
+    margin-top: 0;
+}
+
+article.profile-copy p:last-child {
+    margin-bottom: 0;
 }
 
 .tech-skills {
-    padding: 1rem;
+    padding: 40px 0 20px 0;
 }
 
 .tech-skills ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -142,23 +93,24 @@ h3 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding-bottom: 40px;
     
 }
 .portfolio li {
     min-width: 256px;
-    padding: 0 0 1rem 0;
     margin: 0 auto;
     flex: 1 0 30%;
+    max-width: 50%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+    text-align: center;
 }
 
 .portfolio img {
     min-width: 256px;
     margin: 0 auto;
-    padding: .5rem;
 }
 
 .portfolio p {
@@ -170,7 +122,7 @@ h3 {
 .contact-form {
     max-width: 800px;
     margin: 0 auto;
-    padding:  1rem 10%;
+    padding-bottom: 40px;
 }
 
 .contact-form .message {
@@ -194,6 +146,12 @@ h3 {
     width: 100%;
 }
 
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
 @media (min-width: 500px) {
 
     header nav ul {
@@ -212,10 +170,10 @@ h3 {
     }
 }
 
-@media (min-width: 1111px) {
-    .data-sheet {
-        flex-flow: row wrap;
-        justify-content: space-between;
+@media (min-width: 600px) {
+    .splash-title {
+        height: 85vh;
+        
     }
-}
 
+}

@@ -1,26 +1,31 @@
-header {
-    background-image: url(../assets/splash-portrait.jpg);
-    background-size: cover;
-    background-position: 82% 55%;
+    header {
+        background: rgb(220, 220, 220);
+    }
+
+.splash-title .box {
+    border: 3px lemonchiffon solid;
+    background: rgba(220, 220, 220, .8);
 }
 
-header nav {
-    background-color: #efefefcd;
-}
 
-
-.splash-title > .box {
-    background-color: #cdcdcdcd;
-}
-
-.splash-title .link-box{
-    background-color: #efefefcd;
-}
-
-.skills, .contact {
+.skills {
     background-color: #d8d8d8;
 }
 
 .contact-form input.submit-button {
     background-color: teal;
+}
+
+.contact-form .message,
+.contact-form input.email-address {
+    background-color: #d8d8d8;
+
+}
+
+@media (min-width: 600px) {
+    header {
+        background-image: url(../assets/splash-portrait.jpg);
+        background-size: cover;
+        background-position: 82% 55%;
+    }
 }
