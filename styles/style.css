@@ -209,7 +209,7 @@ header {
   -ms-flex-line-pack: end;
       align-content: flex-end;
   height: 15vh;
-  min-height: 400px;
+  min-height: 350px;
 }
 
 .splash-title .box {
@@ -220,7 +220,7 @@ header {
 
 .scroll-down {
   position: absolute;
-  bottom: 10px;
+  bottom: 80px;
   width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -421,6 +421,9 @@ footer {
   .splash-title {
     height: 85vh;
   }
+  .scroll-down {
+    bottom: 40px;
+  }
 }
 
 a {
@@ -462,6 +465,7 @@ h4 {
 }
 
 .scroll-down a {
+  font-size: 1.5rem;
   text-decoration: none;
   color: blue;
 }

@@ -29,7 +29,7 @@ header {
     justify-content: flex-end;
     align-content: flex-end;
     height: 15vh;
-    min-height: 400px;
+    min-height: 350px;
 }
 
 .splash-title .box {
@@ -40,7 +40,7 @@ header {
 
 .scroll-down {
     position: absolute;
-    bottom: 10px;
+    bottom: 80px;
     width: 80%;
     display: flex;
     justify-content: flex-end;
@@ -175,6 +175,7 @@ footer {
         margin-right: 60px;
     }
 
+
     .contact-form input.email-address {
         width: 67%;
     }
@@ -189,4 +190,7 @@ footer {
         
     }
 
+    .scroll-down {
+        bottom: 40px;
+    }
 }
