@@ -29,7 +29,7 @@ header {
     justify-content: flex-end;
     align-content: flex-end;
     height: 15vh;
-    min-height: 350px;
+    min-height: 320px;
 }
 
 .splash-title .box {
@@ -41,14 +41,9 @@ header {
 .scroll-down {
     position: absolute;
     bottom: 80px;
-    width: 80%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.scroll-down a {
-    padding: 20px;
 }
 
 h3 {

@@ -209,7 +209,7 @@ header {
   -ms-flex-line-pack: end;
       align-content: flex-end;
   height: 15vh;
-  min-height: 350px;
+  min-height: 320px;
 }
 
 .splash-title .box {
@@ -221,7 +221,6 @@ header {
 .scroll-down {
   position: absolute;
   bottom: 80px;
-  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -231,10 +230,6 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.scroll-down a {
-  padding: 20px;
 }
 
 h3 {
@@ -465,9 +460,13 @@ h4 {
 }
 
 .scroll-down a {
-  font-size: 1.5rem;
+  font-size: 6rem;
   text-decoration: none;
-  color: blue;
+  color: lemonchiffon;
+}
+
+.scroll-down a:hover {
+  color: rgba(255, 250, 205, 0.4);
 }
 
 .tech-skills li {
@@ -522,15 +521,6 @@ header {
 .splash-title .box {
   border: 3px lemonchiffon solid;
   background: rgba(220, 220, 220, 0.8);
-}
-
-.scroll-down a {
-  background: rgba(255, 250, 205, 0.7);
-  border-radius: 50%;
-}
-
-.scroll-down a:hover {
-  background: lemonchiffon;
 }
 
 .skills {
