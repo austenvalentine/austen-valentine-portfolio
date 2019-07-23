@@ -147,7 +147,8 @@ article.profile-copy p:last-child {
     width: 100%;
 }
 
-.contact-form .input-wrap input {
+.contact-form .input-wrap input,
+.contact-form .input-wrap button {
     border: 0;
     height: 3rem;
     padding: 1rem;
@@ -174,7 +175,7 @@ footer {
     .contact-form input.email-address {
         width: 67%;
     }
-    .contact-form input.submit-button {
+    .contact-form button.submit-button {
         width: 33%;
     }
 }
