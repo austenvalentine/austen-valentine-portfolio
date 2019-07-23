@@ -3,7 +3,7 @@
     }
 
 .splash-title .box {
-    border: 3px lemonchiffon solid;
+    border: 3px orange   solid;
     background: rgba(220, 220, 220, .8);
 }
 
@@ -12,7 +12,7 @@
 }
 
 .contact-form input.submit-button {
-    background-color: teal;
+    background-color: blue;
 }
 
 .contact-form .message,
@@ -21,7 +21,7 @@
 
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     header {
         background-image: url(../assets/splash-portrait.jpg);
         background-size: cover;

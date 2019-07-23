@@ -27,7 +27,7 @@ header {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
-    align-content: flex-end;
+    align-content: center;
     height: 15vh;
     min-height: 320px;
 }
@@ -35,14 +35,14 @@ header {
 .splash-title .box {
     padding: 20px;
     margin-right: auto;
-    margin-left: 0;
+    margin-left: auto;
 }
 
 .scroll-down {
     position: absolute;
     bottom: 80px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -181,11 +181,22 @@ footer {
 
 @media (min-width: 600px) {
     .splash-title {
-        height: 85vh;
+        height: 54vh;
         
     }
 
     .scroll-down {
         bottom: 40px;
+    }
+}
+
+@media (min-width: 800px) {
+    .splash-title {
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+    .splash-title .box {
+        margin-left: 0;
+        margin-right: auto;
     }
 }

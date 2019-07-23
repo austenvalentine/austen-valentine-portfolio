@@ -2,7 +2,7 @@
 
 a {
     text-decoration: none;
-    color: teal;
+    color: orange;
 }
 
 a:hover {
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
 }
 
 h4 { 
@@ -41,11 +41,11 @@ h4 {
 .scroll-down a {
     font-size: 6rem;
     text-decoration: none;
-    color: lemonchiffon;
+    color: orange;
 }
 
 .scroll-down a:hover {
-    color: rgba(255, 250, 205, 0.4);
+    color: rgba(255, 155, 0, 0.4);
 }
 
 
@@ -69,14 +69,10 @@ footer {
     font-size: .8rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1110px) {
 
     h1 {
         font-size: 3rem;
-    }
-
-    h2 {
-        font-size: 2.2rem;
     }
 
     p,
@@ -86,13 +82,13 @@ footer {
 }
 
 
-@media (min-width: 1010px) {
+@media (min-width: 1280px) {
     h1 {
         font-size: 4rem;
     }
 
     h2 {
-        font-size: 3rem;
+        font-size: 1.3rem;
     }
 
 }

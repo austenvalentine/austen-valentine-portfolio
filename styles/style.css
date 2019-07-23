@@ -206,8 +206,8 @@ header {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
+  -ms-flex-line-pack: center;
+      align-content: center;
   height: 15vh;
   min-height: 320px;
 }
@@ -215,7 +215,7 @@ header {
 .splash-title .box {
   padding: 20px;
   margin-right: auto;
-  margin-left: 0;
+  margin-left: auto;
 }
 
 .scroll-down {
@@ -224,9 +224,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -414,16 +414,30 @@ footer {
 
 @media (min-width: 600px) {
   .splash-title {
-    height: 85vh;
+    height: 54vh;
   }
   .scroll-down {
     bottom: 40px;
   }
 }
 
+@media (min-width: 800px) {
+  .splash-title {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -ms-flex-line-pack: end;
+        align-content: flex-end;
+  }
+  .splash-title .box {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
 a {
   text-decoration: none;
-  color: teal;
+  color: orange;
 }
 
 a:hover {
@@ -447,7 +461,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.1rem;
 }
 
 h4 {
@@ -462,11 +476,11 @@ h4 {
 .scroll-down a {
   font-size: 6rem;
   text-decoration: none;
-  color: lemonchiffon;
+  color: orange;
 }
 
 .scroll-down a:hover {
-  color: rgba(255, 250, 205, 0.4);
+  color: rgba(255, 155, 0, 0.4);
 }
 
 .tech-skills li {
@@ -488,12 +502,9 @@ footer {
   font-size: .8rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1110px) {
   h1 {
     font-size: 3rem;
-  }
-  h2 {
-    font-size: 2.2rem;
   }
   p,
   .portfolio li {
@@ -501,12 +512,12 @@ footer {
   }
 }
 
-@media (min-width: 1010px) {
+@media (min-width: 1280px) {
   h1 {
     font-size: 4rem;
   }
   h2 {
-    font-size: 3rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -519,7 +530,7 @@ header {
 }
 
 .splash-title .box {
-  border: 3px lemonchiffon solid;
+  border: 3px orange   solid;
   background: rgba(220, 220, 220, 0.8);
 }
 
@@ -528,7 +539,7 @@ header {
 }
 
 .contact-form input.submit-button {
-  background-color: teal;
+  background-color: blue;
 }
 
 .contact-form .message,
@@ -536,7 +547,7 @@ header {
   background-color: #d8d8d8;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   header {
     background-image: url(../assets/splash-portrait.jpg);
     background-size: cover;
