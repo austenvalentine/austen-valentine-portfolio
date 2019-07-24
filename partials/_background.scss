@@ -3,8 +3,18 @@ header {
 }
 
 .splash-title .box {
-    border: 3px orange   solid;
+    border: 3px orange solid;
+    border-radius: 6px;
     background: rgba(220, 220, 220, .8);
+    box-shadow: 0 3px 6px gray;
+}
+
+.scroll-down img {
+    filter: drop-shadow(0 3px 3px gray);
+}
+
+.scroll-down img:hover {
+    filter: drop-shadow(0 1px 1px gray);
 }
 
 .skills {
@@ -12,8 +22,8 @@ header {
 }
 
 .contact-form button.submit-button {
-    background-color: blue;
-    
+    background-color: #33d;
+    border: 1px #33d solid;
     border-radius: 0 0 6px 6px;
 }
 
@@ -34,7 +44,7 @@ header {
 @media (min-width: 500px) {
 
     .contact-form button.submit-button {
-        background-color: blue;
+        background-color: #33d;
         border-radius: 0 6px 6px 0;
     }
 
