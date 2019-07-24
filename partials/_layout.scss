@@ -84,6 +84,7 @@ article.profile-copy p:last-child {
 
 .tech-skills {
     padding: 40px 0 20px 0;
+    min-width: 300px;
 }
 
 .tech-skills ul {
@@ -95,7 +96,7 @@ article.profile-copy p:last-child {
 }
 
 .tech-skills li {
-    min-width: 105px;
+    min-width: 160px;
     padding: 0;
     margin: 0;
     

@@ -279,6 +279,7 @@ article.profile-copy p:last-child {
 
 .tech-skills {
   padding: 40px 0 20px 0;
+  min-width: 300px;
 }
 
 .tech-skills ul {
@@ -297,7 +298,7 @@ article.profile-copy p:last-child {
 }
 
 .tech-skills li {
-  min-width: 105px;
+  min-width: 160px;
   padding: 0;
   margin: 0;
   width: 25%;
@@ -505,7 +506,8 @@ h4 {
 }
 
 .tech-skills li {
-  font-size: 3rem;
+  font-size: 5rem;
+  color: orange;
 }
 
 .tech-skills .skill-name {
@@ -570,7 +572,7 @@ header {
 }
 
 .skills {
-  background-color: #d8d8d8;
+  background-color: #33d;
 }
 
 .contact-form button.submit-button {
