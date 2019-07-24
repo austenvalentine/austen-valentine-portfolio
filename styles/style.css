@@ -174,6 +174,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -230,6 +235,11 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.scroll-down img {
+  width: 100px;
+  height: 100px;
 }
 
 h3 {
@@ -376,6 +386,9 @@ article.profile-copy p:last-child {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
@@ -387,8 +400,11 @@ article.profile-copy p:last-child {
 .contact-form .input-wrap button {
   border: 0;
   height: 3rem;
-  padding: 1rem;
   width: 100%;
+}
+
+.contact-form .input-wrap input {
+  padding: 1rem;
 }
 
 footer {
@@ -536,8 +552,21 @@ header {
 }
 
 .splash-title .box {
-  border: 3px orange   solid;
+  border: 3px orange solid;
+  border-radius: 6px;
   background: rgba(220, 220, 220, 0.8);
+  -webkit-box-shadow: 0 3px 6px gray;
+          box-shadow: 0 3px 6px gray;
+}
+
+.scroll-down img {
+  -webkit-filter: drop-shadow(0 3px 3px gray);
+          filter: drop-shadow(0 3px 3px gray);
+}
+
+.scroll-down img:hover {
+  -webkit-filter: drop-shadow(0 1px 1px gray);
+          filter: drop-shadow(0 1px 1px gray);
 }
 
 .skills {
@@ -545,7 +574,8 @@ header {
 }
 
 .contact-form button.submit-button {
-  background-color: blue;
+  background-color: #33d;
+  border: 1px #33d solid;
   border-radius: 0 0 6px 6px;
 }
 
@@ -565,7 +595,7 @@ header {
 
 @media (min-width: 500px) {
   .contact-form button.submit-button {
-    background-color: blue;
+    background-color: #33d;
     border-radius: 0 6px 6px 0;
   }
   .contact-form input.email-address {
