@@ -1,5 +1,5 @@
 header {
-    background: rgb(220, 220, 220);
+    background: #33d;
 }
 
 .splash-title .box {
@@ -15,6 +15,11 @@ header {
 
 .scroll-down img:hover {
     filter: drop-shadow(0 1px 1px gray);
+}
+
+.avatar-box {
+    border-radius: 50%;
+    border: orange 3px solid;
 }
 
 .skills {
