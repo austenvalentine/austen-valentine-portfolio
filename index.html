@@ -19,8 +19,8 @@
                     <h2>Front-End Web Developer</h2>
                 </span>
             </div>
-            <div class="content-wrapper scroll-down">
-                <a href="#about-me"><img src="assets/noun_Arrow_1921069.svg" alt="downwarn-pointing arrow"></a>
+            <div id="scroll-arrow" class="content-wrapper scroll-down">
+                <a id="down-arrow" href="#about-me"><img src="assets/noun_Arrow_1921069.svg" alt="downwarn-pointing arrow"></a>
             </div>    
         </section>
     </header>
@@ -121,5 +121,10 @@
     <footer>
         Copyright &#169; 2019 Austen Valentine
     </footer>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>    <script>
+        let scroll = new SmoothScroll('#down-arrow', {
+            speed: 300
+        });
+    </script>
 </body>
 </html>
