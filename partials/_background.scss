@@ -1,41 +1,47 @@
 header {
-    background: #33d;
+    background-image: radial-gradient(circle at bottom left, #ff6694 -10%, #27314e 10%, #28324e 50%, #ff6694 140% );
+    background-size: 400%;
+    background-position: 80%;   
+
+}
+
+section {
+    background: #c7ccdb;
 }
 
 .splash-title .box {
-    border: 3px orange solid;
+    border: 3px #ff6694 solid;
     border-radius: 6px;
     background: rgba(240, 240, 240, 0.8);
-    box-shadow: 0 3px 6px gray;
-}
-
-.scroll-down img {
-    filter: drop-shadow(0 3px 3px gray);
-}
-
-.scroll-down img:hover {
-    filter: drop-shadow(0 1px 1px gray);
 }
 
 .avatar-box {
     border-radius: 50%;
-    border: orange 3px solid;
+    border: #ff6694 3px solid;
 }
 
 .skills {
-    background-color: #33d;
+    background-color: #2a324b;
+}
+
+section.portfolio {
+    background-color: white;
+}
+
+section.contact {
+    background-color: #ff6694;
 }
 
 .contact-form button.submit-button {
-    background-color: #33d;
-    border: 1px #33d solid;
+    background-color: #2a324b;
+    border: 1px #2a324b solid;
     border-radius: 0 0 6px 6px;
 }
 
 .contact-form .message,
 .contact-form input.email-address {
     background-color: #f8f8f8;
-    border: orange 1px solid;
+    border: #2a324b 1px solid;
 }
 
 .contact-form .message {
@@ -47,13 +53,13 @@ header {
 }
 
 footer {
-    background: #33d;
+    background: #2a324b;
 }
 
 @media (min-width: 500px) {
 
     .contact-form button.submit-button {
-        background-color: #33d;
+        background-color: #2a324b;
         border-radius: 0 6px 6px 0;
     }
 
@@ -61,12 +67,4 @@ footer {
         border-radius: 6px 0 0 6px;
     }
 
-}
-
-@media (min-width: 800px) {
-    header {
-        background-image: url(../assets/splash-portrait.jpg);
-        background-size: cover;
-        background-position: 82% 55%;
-    }
 }

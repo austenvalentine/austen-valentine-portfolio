@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Raleway:500,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme:400|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Carter+One:400&display=swap');
 
 a {
     text-decoration: none;
-    color: orange;
+    color: #ff6694;
 }
 
 a:hover {
@@ -10,15 +11,16 @@ a:hover {
 }
 
 p, .profile-deets, .portfolio li, form {
-    font-family: "Open Sans";
+    font-family: "Montserrat";
     font-size: 1rem;
     line-height: 1.8rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
-    color: #33d;
-    font-weight: 500;
+    font-family: "Carter One";
+    color: #2a324b;
+    font-weight: 700;
+    text-align: center;
 }
 
 h1 {
@@ -30,7 +32,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem
+    font-size: 1.8rem
 }
 
 h4 { 
@@ -45,20 +47,20 @@ h4 {
 .scroll-down a {
     font-size: 6rem;
     text-decoration: none;
-    color: orange;
+    color: #ff6694;
 }
 
 .scroll-down a:hover {
-    color: rgba(255, 155, 0, 0.4);
+    color: #af4766;
 }
 
 .tech-skills li {
     font-size: 5rem;
-    color: orange;
+    color: #ff6694;
 }
 
 .tech-skills .skill-name {
-    font-family: 'Roboto';
+    font-family: 'Carter One';
     line-height: 2;
     font-size: 1.2rem;
 }
@@ -72,7 +74,7 @@ h4 {
 
 footer {
     font-size: .8rem;
-    color: orange;
+    color: #c7ccdb;
 }
 
 @media (min-width: 1110px) {

@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css?val=119">
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
-    <title>Austen Valentine: Front-End Web Developer</title>
+    <title>Austen Valentine: Web Developer</title>
 </head>
+
 <body>
     <header id="top">
-        <section class="content-wrapper">
+        <div class="content-wrapper">
             <div class="splash-title">
                 <span class="box">
                     <h1>Austen Valentine</h1>
-                    <h2>Front-End Web Developer</h2>
+                    <h2>Web Developer</h2>
                 </span>
             </div>
             <div id="scroll-arrow" class="content-wrapper scroll-down">
-                <a id="down-arrow" href="#about-me"><img src="assets/noun_Arrow_1921069.svg" alt="downwarn-pointing arrow"></a>
-            </div>    
-        </section>
+                <a id="down-arrow" href="#about-me"><img src="assets/noun_Arrow_1921069.svg"
+                        alt="downwarn-pointing arrow"></a>
+            </div>
+        </div>
     </header>
     <main>
         <section class="about" id="about">
@@ -36,19 +39,47 @@
                         <img src="assets/avatar.jpg" alt="Austen smiling">
                     </div>
                     <p>
-                        Hi, I’m Austen! I’m a front-end developer from Toronto. My creative process is guided by four principles: Listening
-                        before speaking. Whiteboard before keyboard. Consistency before speed. Clarity before cleverness.
+                        Hi, I’m Austen! I’m a web developer from Toronto. My creative process is guided by four
+                        principles: Listening
+                        before speaking. Whiteboard before keyboard. Consistency before speed. Clarity before
+                        cleverness.
                     </p>
                     <p>
-                        Among my technical skills are version control and collaboration with Git, pixel perfect styling with SASS and CSS
-                        frameworks, dynamic content with JavaScript, jQuery and React.js, NoSQL with Firebase, responsive web design, and web
-                        accessibility. I also enjoy learning computer science concepts such as language design and implementation. For example,
-                        <a href="https://gitlab.com/austenvalentine/lmpthw_solutions/tree/master/ex35/part4project">I built a simplified Python interpreter — in Python!</a>
-                    </p>             
+                        As a full-time Web Development Mentor at Juno College, I've received praise from
+                        students for the empathy with which I guide them to solutions and a nuanced understanding of
+                        foundational concepts. I am known for helping people feel cared-for by sticking with every
+                        individual
+                        until their overwhelming obstacles are tamed and they feel confident enough to carry on.
+                    </p>
                     <p>
-                        If you have any questions or would like to say hi, contact me.
-                    </p>       
+                        Among my technical skills are version control and collaboration with Git, pixel perfect styling
+                        with SASS and CSS
+                        frameworks, dynamic content with JavaScript, jQuery and React.js, NoSQL with Firebase,
+                        responsive web design, and web
+                        accessibility. I also build REST APIs with Python, Flask-RESTful and SQL.
+                    </p>
+                    <p>
+                        If you have any questions, send them to <a
+                            href="mailto:hi@austenvalentine.com">hi@austenvalentine.com</a>.
+                    </p>
                 </article>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="tech-skills">
+                <ul>
+                    <li><i class="devicon-javascript-plain"></i><span class="skill-name">JavaScript</span></li>
+                    <li><i class="devicon-github-plain"></i><span class="skill-name">GitHub</span></li>
+                    <li><i class="devicon-jquery-plain"></i><span class="skill-name">jQuery</span></li>
+                    <li><i class="devicon-react-original"></i><span class="skill-name">React</span></li>
+                    <li><i class="devicon-sass-original"></i><span class="skill-name">Sass</span></li>
+                    <li><i class="devicon-python-plain"></i><span class="skill-name">Python</span></li>
+                    <li><i class="devicon-html5-plain"></i><span class="skill-name">HTML5</span></li>
+                    <li><i class="devicon-css3-plain"></i><span class="skill-name">CSS3</span></li>
+                    <li><i class="devicon-git-plain"></i><span class="skill-name">Git</span></li>
+                    <li><i class="devicon-ubuntu-plain"></i><span class="skill-name">Ubuntu</span></li>
+                    <li><img src="assets/flask-graphic-only.svg" aria-hidden><span class="skill-name">Flask</span></li>
+                </ul>
             </div>
         </section>
         <section class="portfolio" id="portfolio">
@@ -82,7 +113,8 @@
                     <li>
                         <h4>Pan-African MemoJam</h4>
                         <a href="https://austenvalentine.com/pan-african-memo-jam">
-                            <img src="assets/mockup-phone-pan-african-memojam.jpg" alt="smartphone displaying memory matching game">
+                            <img src="assets/mockup-phone-pan-african-memojam.jpg"
+                                alt="smartphone displaying memory matching game">
                         </a>
                         <ul>
                             <li>accessibility compliance</li>
@@ -97,37 +129,27 @@
         <section class="contact" id="contact">
             <div class="content-wrapper">
                 <h3 id="contact">Contact</h3>
-                <form class="contact-form" action="https://formspree.io/wave@austenvalentine.com" method="POST">
-                    <textarea class="message" placeholder="Questions? I'd love to hear from you!" type="text" name="name"></textarea></textarea>
+                <form class="contact-form" action="https://formspree.io/hi@austenvalentine.com" method="POST">
+                    <textarea class="message" placeholder="Questions? I'd love to hear from you!" type="text"
+                        name="name"></textarea></textarea>
                     <div class="input-wrap">
                         <input class="email-address" placeholder="email@address.here" type="email" name="_replyto">
                         <button class="submit-button" value="Send">Send</button>
                     </div>
                 </form>
-            </div>    
-        </section>
-        <section class="skills" id="skills">
-            <div class="tech-skills">
-                <ul>
-                    <li><i class="devicon-javascript-plain"></i><span class="skill-name">JavaScript</span></li>
-                    <li><i class="devicon-github-plain"></i><span class="skill-name">GitHub</span></li>
-                    <li><i class="devicon-jquery-plain"></i><span class="skill-name">jQuery</span></li>
-                    <li><i class="devicon-react-original"></i><span class="skill-name">React</span></li>
-                    <li><i class="devicon-sass-original"></i><span class="skill-name">Sass</span></li>
-                    <li><i class="devicon-python-plain"></i><span class="skill-name">Python</span></li>
-                    <li><i class="devicon-html5-plain"></i><span class="skill-name">HTML5</span></li>
-                    <li><i class="devicon-css3-plain"></i><span class="skill-name">CSS3</span></li>
-                </ul>
             </div>
         </section>
+
     </main>
     <footer>
         Copyright &#169; 2019 Austen Valentine
     </footer>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>    <script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
         let scroll = new SmoothScroll('#down-arrow', {
             speed: 300
         });
     </script>
 </body>
+
 </html>

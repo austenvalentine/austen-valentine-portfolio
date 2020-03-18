@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Raleway:500,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Acme:400|Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Carter+One:400&display=swap");
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block;
 }
@@ -176,7 +177,6 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   width: 100%;
-  height: 100%;
 }
 
 ul {
@@ -243,7 +243,7 @@ header {
 }
 
 h3 {
-  padding: 40px 0;
+  padding: 80px 0 40px 0;
 }
 
 .data-sheet {
@@ -260,7 +260,7 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .avatar-box {
@@ -285,7 +285,7 @@ article.profile-copy p:last-child {
 }
 
 .tech-skills {
-  padding: 80px 0 40px 0;
+  padding: 80px 0;
   min-width: 300px;
 }
 
@@ -323,6 +323,10 @@ article.profile-copy p:last-child {
   -webkit-box-direction: normal;
       -ms-flex-flow: column nowrap;
           flex-flow: column nowrap;
+}
+
+.tech-skills img {
+  width: 5rem;
 }
 
 .portfolio ul {
@@ -376,7 +380,7 @@ article.profile-copy p:last-child {
 .contact-form {
   max-width: 800px;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .contact-form .message {
@@ -458,14 +462,11 @@ footer {
     margin-left: 0;
     margin-right: auto;
   }
-  .avatar-box {
-    display: none;
-  }
 }
 
 a {
   text-decoration: none;
-  color: orange;
+  color: #ff6694;
 }
 
 a:hover {
@@ -473,15 +474,16 @@ a:hover {
 }
 
 p, .profile-deets, .portfolio li, form {
-  font-family: "Open Sans";
+  font-family: "Montserrat";
   font-size: 1rem;
   line-height: 1.8rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway";
-  color: #33d;
-  font-weight: 500;
+  font-family: "Carter One";
+  color: #2a324b;
+  font-weight: 700;
+  text-align: center;
 }
 
 h1 {
@@ -493,7 +495,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 h4 {
@@ -508,20 +510,20 @@ h4 {
 .scroll-down a {
   font-size: 6rem;
   text-decoration: none;
-  color: orange;
+  color: #ff6694;
 }
 
 .scroll-down a:hover {
-  color: rgba(255, 155, 0, 0.4);
+  color: #af4766;
 }
 
 .tech-skills li {
   font-size: 5rem;
-  color: orange;
+  color: #ff6694;
 }
 
 .tech-skills .skill-name {
-  font-family: 'Roboto';
+  font-family: 'Carter One';
   line-height: 2;
   font-size: 1.2rem;
 }
@@ -534,7 +536,7 @@ h4 {
 
 footer {
   font-size: .8rem;
-  color: orange;
+  color: #c7ccdb;
 }
 
 @media (min-width: 1110px) {
@@ -561,46 +563,48 @@ ul {
 }
 
 header {
-  background: #33d;
+  background-image: radial-gradient(circle at bottom left, #ff6694 -10%, #27314e 10%, #28324e 50%, #ff6694 140%);
+  background-size: 400%;
+  background-position: 80%;
+}
+
+section {
+  background: #c7ccdb;
 }
 
 .splash-title .box {
-  border: 3px orange solid;
+  border: 3px #ff6694 solid;
   border-radius: 6px;
   background: rgba(240, 240, 240, 0.8);
-  -webkit-box-shadow: 0 3px 6px gray;
-          box-shadow: 0 3px 6px gray;
-}
-
-.scroll-down img {
-  -webkit-filter: drop-shadow(0 3px 3px gray);
-          filter: drop-shadow(0 3px 3px gray);
-}
-
-.scroll-down img:hover {
-  -webkit-filter: drop-shadow(0 1px 1px gray);
-          filter: drop-shadow(0 1px 1px gray);
 }
 
 .avatar-box {
   border-radius: 50%;
-  border: orange 3px solid;
+  border: #ff6694 3px solid;
 }
 
 .skills {
-  background-color: #33d;
+  background-color: #2a324b;
+}
+
+section.portfolio {
+  background-color: white;
+}
+
+section.contact {
+  background-color: #ff6694;
 }
 
 .contact-form button.submit-button {
-  background-color: #33d;
-  border: 1px #33d solid;
+  background-color: #2a324b;
+  border: 1px #2a324b solid;
   border-radius: 0 0 6px 6px;
 }
 
 .contact-form .message,
 .contact-form input.email-address {
   background-color: #f8f8f8;
-  border: orange 1px solid;
+  border: #2a324b 1px solid;
 }
 
 .contact-form .message {
@@ -612,23 +616,15 @@ header {
 }
 
 footer {
-  background: #33d;
+  background: #2a324b;
 }
 
 @media (min-width: 500px) {
   .contact-form button.submit-button {
-    background-color: #33d;
+    background-color: #2a324b;
     border-radius: 0 6px 6px 0;
   }
   .contact-form input.email-address {
     border-radius: 6px 0 0 6px;
-  }
-}
-
-@media (min-width: 800px) {
-  header {
-    background-image: url(../assets/splash-portrait.jpg);
-    background-size: cover;
-    background-position: 82% 55%;
   }
 }
