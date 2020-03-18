@@ -9,10 +9,16 @@ section {
     background: #c7ccdb;
 }
 
+
 .splash-title {
     border: 3px #ff6694 solid;
     border-radius: 6px;
     background: rgba(240, 240, 240, 0.8);
+}
+
+.scroll-arrow button {
+    background: none;
+    border: none;
 }
 
 .avatar-box {

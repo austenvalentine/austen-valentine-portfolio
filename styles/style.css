@@ -195,7 +195,7 @@ ul {
 }
 
 header {
-  height: 85vh;
+  height: 20vh;
   min-height: 520px;
   position: relative;
 }
@@ -226,6 +226,7 @@ header .container {
 .scroll-arrow {
   position: absolute;
   bottom: 80px;
+  display: none;
 }
 
 .scroll-arrow img {
@@ -542,6 +543,11 @@ section {
   border: 3px #ff6694 solid;
   border-radius: 6px;
   background: rgba(240, 240, 240, 0.8);
+}
+
+.scroll-arrow button {
+  background: none;
+  border: none;
 }
 
 .avatar-box {
