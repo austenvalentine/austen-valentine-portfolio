@@ -22,35 +22,32 @@ ul {
 }
 
 header {
-    height: 100vh;
+    height: 85vh;
     min-height: 520px;
     position: relative;
 }
 
-.splash-title {
+header .container {
+    height: 100%;
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-end;
-    align-content: center;
-    height: 15vh;
-    min-height: 320px;
-}
-
-.splash-title .box {
-    padding: 40px 20px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.scroll-down {
-    position: absolute;
-    bottom: 80px;
-    display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
 
-.scroll-down img {
+
+.splash-title {
+    max-width: 480px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.scroll-arrow {
+    position: absolute;
+    bottom: 20px;
+}
+
+.scroll-arrow img {
     width: 100px;
     height: 100px;
 }
@@ -188,15 +185,6 @@ footer {
 
 @media (min-width: 500px) {
 
-    header nav ul {
-        justify-content: flex-start;
-    }
-
-    header nav li {
-        margin-right: 60px;
-    }
-
-
     .contact-form input.email-address {
         width: 67%;
     }
@@ -205,25 +193,8 @@ footer {
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     .splash-title {
-        height: 54vh;
-        
+        max-width: 750px;
     }
-
-    .scroll-down {
-        bottom: 40px;
-    }
-}
-
-@media (min-width: 800px) {
-    .splash-title {
-        justify-content: flex-end;
-        align-content: flex-end;
-    }
-    .splash-title .box {
-        margin-left: 0;
-        margin-right: auto;
-    }
-
 }
